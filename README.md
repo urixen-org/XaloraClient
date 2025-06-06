@@ -111,9 +111,10 @@ Making the dashboard runs on startup:
 To stop a currently running Xalora instance, use `pm2 stop Xalora`
 
 # Credits
-<strong>1.1</strong> Our backend is heavily inspired by Heliactyl, and we extend our gratitude to their team for their exceptional work.
+<strong>1.1</strong> Our backend is heavily inspired by Heliactyl, and we extend our gratitude to Overnode team and OpenHeliactyl for their exceptional work.
 
 Explore Heliactyl: https://github.com/OpenHeliactyl/Heliactyl/
+Explore Fixed-Heliactyl: https://github.com/OvernodeProjets/Fixed-Heliactyl
 
 
 # Nginx Proxy Config
