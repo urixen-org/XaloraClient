@@ -1,27 +1,28 @@
 {
   "name": "XaloraClient",
-  "version": "0.1.0",
+  "version": "0.1",
   "description": "The best Pterodactyl client area.",
   "main": "index.js",
   "author": "XaloraClient",
   "dependencies": {
-    "@keyv/mongo": "^2.1.2",
-    "@keyv/mysql": "^2.1.10",
-    "@keyv/postgres": "^1.4.3",
-    "@keyv/redis": "^2.8.5",
-    "axios": "^1.7.9",
-    "chalk": "^4.1.2",
-    "cron": "^3.1.7",
-    "discord.js": "^13.17.1",
-    "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "express-session": "^1.18.1",
-    "express-ws": "^5.0.2",
-    "keyv": "^4.5.4",
+    "@keyv/mongo": "^1.2.1",
+    "@keyv/mysql": "^1.1.5",
+    "@keyv/postgres": "^1.0.17",
+    "@keyv/redis": "^2.2.1",
+    "@keyv/sqlite": "^3.5.2",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.0",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.2",
+    "express-ws": "^4.0.0",
+    "keyv": "^4.0.4",
     "node-cache": "^5.1.2",
-    "node-fetch": "^2.7.0",
-    "nodemon": "^3.1.7",
-    "stripe": "^17.4.0"
+    "node-fetch": "^2.6.6",
+    "nodemon": "^3.0.3",
+    "stripe": "^9.4.0"
   },
   "scripts": {
     "start": "nodemon index.js"
@@ -29,6 +30,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.15"
   }
 }
